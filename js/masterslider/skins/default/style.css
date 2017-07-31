@@ -199,10 +199,12 @@
 
 .ms-layer.text3 {
 	color: #fff;
+	text-shadow: 0px 4px 5px #555;
 	font-size: 18px;
 	line-height: 27px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 800;
+	width: 40%;
 }
 .ms-layer.text3.center {
 	width: 100%;
@@ -328,6 +330,7 @@
 
 .ms-layer.text11 {
 	color: #fff;
+	text-shadow: 0px 2px 3px #555;
 	font-size: 45px;
 	line-height: 50px;
 	font-family: 'Raleway', sans-serif;

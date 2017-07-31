@@ -39,6 +39,26 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.logo_kolla{
+	margin: 30px auto !important;
+	width: 150px !important;
+}
+
+#kolla_edu{
+	background-color: #0c84a6;
+}
+
+#kolla_community{
+	background-color: magenta;
+}
+
+#kolla_cs{
+	background-color: green;
+}
+
+#kolla_mobile{
+	background-color: orange;
+}
 
 .site_wrapper {
 	width: 100%;
@@ -344,9 +364,8 @@
 	margin-top:23px;
 	position: relative;
 	text-indent:-999em;
-	background:url(../images/logo_kolla.png) no-repeat left top;
-	background-size: 160px 45px;
-    background-repeat: no-repeat;
+	background:url(../img/kolla_education.png) no-repeat left top;
+	background-size: 180px 50px;
 }
 
 #logo13 {
@@ -504,7 +523,7 @@
 }
 
 .menu_main.rslinks7 {
-	width: 77%;
+	width: 80%;
 }
 
 
@@ -3680,28 +3699,39 @@
 .featured_section65 {
 	float: left;
 	width: 100%;
-	padding: 50px 0px;
+	padding: 70px 0px;
+	background: #272727;
 	text-align: center;
 }
 .featured_section65 .one_fourth_less {
-	background: #fff;
+	background: #0c84a6;
 	transition: all 0.3s ease;
 }
 .featured_section65 .one_fourth_less h5 {
+	color: #c9c9c9;
 	margin: 13px 0 0 0;
 }
+.featured_section65 .one_fourth_less:hover h5 {
+	color: #393939;
+}
+
 .featured_section65 .one_fourth_less p {
 	font-size: 13px;
 	line-height: 21px;
-	color: #999;
+	color: #fff;
 	margin: 0 0 18px 0;
 }
+
+.featured_section65 .one_fourth_less:hover p {
+	color: #0c84a6;
+}
+
 .featured_section65 .one_fourth_less a:hover {
 	color: #59abe3;
 	transition: all 0.3s ease;
 }
 .featured_section65 .one_fourth_less:hover {
-	background: #f9f9f9;
+	background: #f2f9ff;
 }
 .featured_section65.two {
 	background: #fff;
@@ -3853,7 +3883,7 @@
 	width: 50%;
 	height: 350px;
 	position: absolute;
-	background: rgb(254, 231, 0);
+	background: rgba(89,171,227,0.93);
 }
 .featured_section67 .box {
 	float: left;
@@ -4606,12 +4636,12 @@
 	width: 18px;
 	height: 18px;
 	border-radius: 3px;
-	color: #575757;
+	color: #fff;
 	font-size: 10px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 18px;
-	background: #ecd702;
+	background: #87d37c;
 	transition: all 0.3s ease;
 }
 .featured_section91 .one_fourth .persoci i:hover {
@@ -4619,7 +4649,7 @@
 }
 .featured_section91 .one_fourth .persoci i.two {
 	float: right;
-	background: #ecd702;
+	background: #7c7c7c;
 	margin-left: 5px;
 	transition: all 0.3s ease;
 }
@@ -6253,6 +6283,7 @@
 	float: left;
 	width: 100%;
 	padding: 85px 0px 110px 0px;
+	background: #f3f3f3;
 }
 .featured_section142 a img:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
@@ -6265,7 +6296,7 @@
 	float: left;
 	width: 100%;
 	padding: 14px 10px 14px 27px;
-	background: #f3f3f3;
+	background: #fff;
 	color: #181818;
 	font-size: 12px;
 	line-height: 18px;
@@ -7873,14 +7904,14 @@ ul.footer_social_links3 {
 	border-radius: 100%;
 	line-height: 50px;
 	vertical-align: middle;
+	background-color: #d9d9d9;
 	color: #fff;
-	background-color: #393939;
 	margin: 30px 2px 0 2px;
 	transition: all 0.3s ease;
 }
 .footer_social_links4 a i:hover {
 	color: #fff;
-	background-color: #ecd702;
+	background-color: #393939;
 }
 
 ul.footer_social_links5 {
@@ -8409,7 +8440,7 @@ ul.footer_social_links5 {
 .title30 {
 	font-weight: 600;
 	margin-bottom: 65px;
-	text-align: center;
+	color: #fff;
 }
 .title30 .line {
 	margin: 14px auto 0 auto;
@@ -8527,7 +8558,6 @@ ul.footer_social_links5 {
 	float: left;
 	width: 100%;
 	text-align: center;
-	background-color: #f3f3f3;
 }
 .client_logos3 ul {
 	float: left;
@@ -8840,7 +8870,7 @@ ul.footer_social_links5 {
 	margin-top: -10px;
 }
 .sidebar_widget ul.arrows_list1 li a {
-	color: #ecd702;
+	color: #9eca45;
 	line-height: 30px;
 }
 .sidebar_widget ul.arrows_list1 li a:hover {
@@ -9120,7 +9150,7 @@ ul.small_social_links {
 	display: block;
 }
 .blog_post h3 a {
-	color: #ecd702;
+	color: #9eca45;
 	text-decoration: none;
 	margin-top: 3px;
 	text-transform: none;
@@ -9622,7 +9652,7 @@ ul.adsbanner-list {
 }
 
 .cforms label em {
-	color: #b7a603;
+	color: #9eca45;
 	font-size: 12px;
 	font-style: normal;
 }
@@ -9656,12 +9686,12 @@ ul.adsbanner-list {
 .cforms .button {
 	float: left;
 	margin-top: 10px;
-	color: #454545;
+	color: #fff;
 	padding: 14px 20px;
 	font-size: 14px;
 	font-weight: 500;
-	background: #fee700;
-	border: 1px solid #dcc803;
+	background: #9eca45;
+	border: 1px solid #7ea821;
 	border-radius: 3px;
 	font-family: 'Raleway', sans-serif;
 	cursor: pointer;
