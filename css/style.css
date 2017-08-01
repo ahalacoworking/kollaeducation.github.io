@@ -112,6 +112,7 @@
 	padding: 0px 0px 0px 0px;
 }
 .right_sidebar {
+	text-align: center;
 	float: right;
 	width: 25%;
 	padding: 0px 0px 0px 0px;
@@ -4667,6 +4668,7 @@
 .featured_section92 {
 	float: left;
 	width: 100%;
+	background: #f3f3f3;
 }
 
 
@@ -4732,8 +4734,12 @@
 .featured_section94 .right .box .cont h4 {
 	margin-bottom: 3px;
 }
+.featured_section94  p {
+	text-align: justify;
+}
 .featured_section94 .right .box .cont p {
 	line-height: 18px;
+	text-align: justify;
 }
 .featured_section94 .right .box:hover {
 	color: #fff;
@@ -9596,6 +9602,27 @@ ul.adsbanner-list {
 	width: 140px;
 	height: 140px;
 	list-style-type: none;
+}
+
+.list_info {
+	float: left;
+	background-color: #f9f9f9;
+	border: 1px solid #e1e1e1;
+	padding: 20px 20px 10px 20px;
+	width: 99%;
+	margin-bottom: 40px;
+}
+
+.list_info > ul > li{
+	padding-top: 20px;
+}
+
+.list_info > ul > li > span{
+	padding-left: 20px;
+}
+
+.list-style{
+	padding-right: 10px; 
 }
 
 .address_info {
