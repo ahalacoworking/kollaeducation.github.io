@@ -14,14 +14,15 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset_kolla.css">
+        <link rel="stylesheet" href="css/style_kolla.css">
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="js/mainmenu/bootstrap.min.css">
         <link rel="stylesheet" href="js/mainmenu/menu12.css">
-        <link rel="stylesheet" href="js/masterslider/style/masterslider2.css">
-        <link rel="stylesheet" href="js/masterslider/skins/default/style.css">
+        <link rel="stylesheet" href="js/masterslider/style/masterslider_kolla.css">
+        <link rel="stylesheet" href="js/masterslider/skins/kolla/style.css">
         <link rel="stylesheet" href="js/masterslider/style/ms-tabs-style2.css">
+
     </head>
     <body>
         <div class="site_wrapper">
@@ -48,8 +49,22 @@
                                         <li>
                                             <a href="about.html">About Us</a>
                                         </li>
-                                        <li>
-                                            <a href="event.html">Event</a>
+                                        <li class="dropdown"><a href="about.html" class="dropdown-toggle">Activity</a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="dropdown-submenu"> <a href="#">Kolla Co-working Space</a></li>
+                                                <li class="dropdown-submenu"> <a href="#">Kolla Community</a></li>
+                                                <li class="dropdown-submenu mul"> <a tabindex="-1" href="#">Kolla Education > </a>
+                                                    <ul class="dropdown-menu" style="">
+                                                        <li><a href="#">Coding Mum Bekraf</a></li>
+                                                        <li><a href="#">Go Scholar Ruby On Rails</a></li>
+                                                        <li><a href="#">Digital Marketing</a></li>
+                                                        <li><a href="#">Coding Mum Regular</a></li>
+                                                        <li><a href="#">Coding Teen</a></li>
+                                                        <li><a href="#">Coding 101</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-submenu"> <a href="#">Kolla Mobile</a></li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="blog.html">Blog</a>
@@ -68,10 +83,86 @@
             <div class="slidermar">
                 <div class="ms-tabs-template">
                     <div class="master-slider ms-skin-default" id="masterslider">
+                        <!--Kolla Co-working Space-->
+                        <div class="ms-slide">
+                            <img src="img/kolla_cs_slider.png" alt=""/>  
+                            <h3 class="ms-layer text11 caps"
+                            style="left: 0px; top: 150px;"
+                            data-type="text"
+                            data-effect="top(45)"
+                            data-duration="2000"
+                            data-delay="100"
+                            data-ease="easeOutExpo"
+                            >
+                                Kolla Co-working Space
+                            </h3>
+                            <h5 class="ms-layer text3"
+                            style="left: 0px; top: 210px;"
+                            data-type="text"
+                            data-effect="bottom(45)"
+                            data-duration="2000"
+                            data-delay="500"
+                            data-ease="easeOutExpo"
+                            href="kolla_coworking_space/index.html" 
+                            >
+                                Lorem ipsum dolor sit amet, cibo cetero vituperata an per, vim ex mollis audire pertinax. Te vim porro contentiones, no nullam graece sea.
+                            </h5>
+                            <a class="ms-layer sbut2 white2"
+                            style="left: 0px; top: 320px;"
+                            data-type="text"
+                            data-delay="1000"
+                            data-ease="easeOutExpo"
+                            data-duration="1200"
+                            data-effect="scale(1.5,1.6)"
+                            >
+                                Kunjungi Website Kolla Co-working Space &nbsp;<i class="fa fa-angle-right"></i>
+                            </a>
+                            <div class="ms-thumb">
+                                <h6>Kolla <em>Co-working Space</em></h6>
+                            </div>
+                        </div>
+                        <!--Kolla Communiry-->
+                        <div class="ms-slide">
+                            <img src="img/kolla_community_slider.jpg" alt=""/>  
+                            <h3 class="ms-layer text11 caps"
+                            style="left: 0px; top: 150px;"
+                            data-type="text"
+                            data-effect="top(45)"
+                            data-duration="2000"
+                            data-delay="100"
+                            data-ease="easeOutExpo"
+                            >
+                                Kolla Community
+                            </h3>
+                            <h5 class="ms-layer text3"
+                            style="left: 0px; top: 210px;"
+                            data-type="text"
+                            data-effect="bottom(45)"
+                            data-duration="2000"
+                            data-delay="500"
+                            data-ease="easeOutExpo"
+                            >
+                                Lorem ipsum dolor sit amet, cibo cetero vituperata an per, vim ex mollis audire pertinax. Te vim porro contentiones, no nullam graece sea.
+                            </h5>
+                            <a class="ms-layer sbut2 white2"
+                            style="left: 0px; top: 320px;"
+                            data-type="text"
+                            data-delay="1000"
+                            data-ease="easeOutExpo"
+                            data-duration="1200"
+                            data-effect="scale(1.5,1.6)"
+                            >
+                                Kunjungi Website Kolla Community &nbsp;<i class="fa fa-angle-right"></i>
+                            </a>
+                            <div class="ms-thumb">
+                                <h6>Kolla <em>Community</em></h6>
+                            </div>
+                        </div>
+                        <!--Kolla Education-->
                         <div class="ms-slide">
                             <img src="img/kolla_education_slider.jpg" alt=""/>  
                             <h3 class="ms-layer text11 caps"
-                            style="left: 0px; top: 120px;"
+                            style="left: 0px; top: 150px;"
                             data-type="text"
                             data-effect="top(45)"
                             data-duration="2000"
@@ -81,7 +172,7 @@
                                 Kolla Education
                             </h3>
                             <h5 class="ms-layer text3"
-                            style="left: 0px; top: 180px;"
+                            style="left: 0px; top: 210px;"
                             data-type="text"
                             data-effect="bottom(45)"
                             data-duration="2000"
@@ -91,126 +182,55 @@
                                 Kolla Education memiliki visi untuk membangun kemampuan masyarakat dalam memahami, mengembangkan, dan mengaplikasikan teknologi.
                             </h5>
                             <a class="ms-layer sbut2 white2"
-                            style="left: 0px; top: 300px;"
+                            style="left: 0px; top: 320px;"
                             data-type="text"
                             data-delay="1000"
                             data-ease="easeOutExpo"
                             data-duration="1200"
                             data-effect="scale(1.5,1.6)"
+                            href="kolla_education/index.html" 
                             >
                                 Kunjungi Website Kolla Education &nbsp;<i class="fa fa-angle-right"></i>
                             </a>
                             <div class="ms-thumb">
                                 <h6>Kolla <em>Education</em></h6>
-                                <img class="logo_kolla" src="img/kolla_education.png" alt=""/>
                             </div>
                         </div>
+                        <!--Kolla Mobile-->
                         <div class="ms-slide">
                             <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x430" alt=""/>
                             <h3 class="ms-layer text11 caps"
-                            style="left: 0px; top: 120px;"
+                            style="left: 0px; top: 150px;"
                             data-type="text"
                             data-effect="top(45)"
                             data-duration="2000"
                             data-delay="100"
                             data-ease="easeOutExpo"
                             >
-                                Ultimate Multi Purpose
+                                Kolla Mobile
                             </h3>
                             <h5 class="ms-layer text3"
-                            style="left: 0px; top: 160px;"
+                            style="left: 0px; top: 210px;"
                             data-type="text"
                             data-effect="bottom(45)"
                             data-duration="2000"
                             data-delay="500"
                             data-ease="easeOutExpo"
                             >
-                                Many web sites in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
+                                Lorem ipsum dolor sit amet, cibo cetero vituperata an per, vim ex mollis audire pertinax. Te vim porro contentiones, no nullam graece sea.
                             </h5>
                             <a class="ms-layer sbut2 white2"
-                            style="left: 0px; top: 300px;"
+                            style="left: 0px; top: 320px;"
                             data-type="text"
                             data-delay="1000"
                             data-ease="easeOutExpo"
                             data-duration="1200"
                             data-effect="scale(1.5,1.6)"
                             >
-                                Read More &nbsp;<i class="fa fa-angle-right"></i>
+                                Kunjungi Website Kolla Mobile &nbsp;<i class="fa fa-angle-right"></i>
                             </a>
                             <div class="ms-thumb">
-                                <img class="logo_kolla" src="img/kolla_cs.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="ms-slide">
-                            <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x430" alt=""/>
-                            <h3 class="ms-layer text11 caps"
-                            style="left: 0px; top: 120px;"
-                            data-type="text"
-                            data-effect="top(45)"
-                            data-duration="2000"
-                            data-delay="100"
-                            data-ease="easeOutExpo"
-                            >
-                                Look Great all Devices
-                            </h3>
-                            <h5 class="ms-layer text3"
-                            style="left: 0px; top: 160px;"
-                            data-type="text"
-                            data-effect="bottom(45)"
-                            data-duration="2000"
-                            data-delay="500"
-                            data-ease="easeOutExpo"
-                            >
-                                Many web sites in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
-                            </h5>
-                            <a class="ms-layer sbut2 white2"
-                            style="left: 0px; top: 300px;"
-                            data-type="text"
-                            data-delay="1000"
-                            data-ease="easeOutExpo"
-                            data-duration="1200"
-                            data-effect="scale(1.5,1.6)"
-                            >
-                                Read More &nbsp;<i class="fa fa-angle-right"></i>
-                            </a>
-                            <div class="ms-thumb">
-                                <img class="logo_kolla" src="img/kolla_community.png" alt=""/>
-                            </div><!-- end thumb -->
-                        </div>
-                        <div class="ms-slide">
-                            <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x430" alt=""/>
-                            <h3 class="ms-layer text11 caps"
-                            style="left: 0px; top: 155px;"
-                            data-type="text"
-                            data-effect="top(45)"
-                            data-duration="2000"
-                            data-delay="100"
-                            data-ease="easeOutExpo"
-                            >
-                                Hope you enjoy it.
-                            </h3>
-                            <h5 class="ms-layer text3"
-                            style="left: 0px; top: 160px;"
-                            data-type="text"
-                            data-effect="bottom(45)"
-                            data-duration="2000"
-                            data-delay="500"
-                            data-ease="easeOutExpo"
-                            >
-                                Many web sites in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
-                            </h5>
-                            <a class="ms-layer sbut2 white2"
-                            style="left: 0px; top: 300px;"
-                            data-type="text"
-                            data-delay="1000"
-                            data-ease="easeOutExpo"
-                            data-duration="1200"
-                            data-effect="scale(1.5,1.6)"
-                            >
-                                Read More &nbsp;<i class="fa fa-angle-right"></i>
-                            </a>
-                            <div class="ms-thumb">
-                                <img class="logo_kolla" src="img/kolla_mobile.png" alt=""/>
+                                <h6>Kolla <em>Mobile</em></h6>
                             </div>
                         </div>
                     </div>
@@ -351,6 +371,9 @@
             </footer>
             <a href="#" class="scrollup">Scroll</a>
         </div>
+        <!-- Untuk Menu -->
+        <script type="text/javascript" src="js/universal/jquery.js"></script>
+        <script type="text/javascript" src="js/mainmenu/sticky.js"></script>
         <script type="text/javascript" src="js/universal/jquery.js"></script>
         <script src="js/mainmenu/bootstrap.min.js"></script>
         <script src="js/masterslider/masterslider.min.js"></script>
