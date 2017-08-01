@@ -112,7 +112,6 @@
 	padding: 0px 0px 0px 0px;
 }
 .right_sidebar {
-	text-align: center;
 	float: right;
 	width: 25%;
 	padding: 0px 0px 0px 0px;
@@ -4734,7 +4733,7 @@
 .featured_section94 .right .box .cont h4 {
 	margin-bottom: 3px;
 }
-.featured_section94  p {
+.featured_section94 p {
 	text-align: justify;
 }
 .featured_section94 .right .box .cont p {
