@@ -333,7 +333,8 @@ p {
 	line-height: 25px;
 }
 .bigtfont.gray {
-	color: #999;
+	color: #393939;
+	text-align: justify;
 }
 
 p.gray {
