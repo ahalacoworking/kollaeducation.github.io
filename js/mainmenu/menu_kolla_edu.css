@@ -1,5 +1,8 @@
+ul.nav>li>a {
+    text-shadow: 1px 1px 2px #000000;
+}
 ul.nav>li>a.active {
-	color:#0c84a6;
+	color:#18ecf7;
 }
 ul.nav>li>a.active:after{
      position: absolute;
@@ -12,11 +15,11 @@ ul.nav>li>a.active:after{
 }
 
 ul.nav>li>a:hover.active {
-	color:#0c84a6;
+	color:#18ecf7;
 }
 
 ul.nav>li>a:hover {
-	color:#0c84a6;
+	color:#18ecf7;
 	transition: all 0.3s ease;
 }
 ul.nav>li>a:hover:after{
