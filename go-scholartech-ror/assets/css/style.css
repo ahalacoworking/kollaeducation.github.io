@@ -73,13 +73,13 @@ body .nopad {
     margin-right: 15px;
     margin-left: 15px;
     text-decoration: none;
+		font-size: 1.25em;
 }
 .list-inline a:hover {text-decoration:none;}
 .rndbtn {
 	display:inline-block;
-	background-color:#296e95;
+	background-color:rgba(7, 189, 103, 0.93);
 	text-align:center;
-	border-radius:20px;
 	width:auto;
 	height:35px;
 	padding:0 20px;
@@ -90,6 +90,7 @@ body .nopad {
 	text-transform:uppercase;
 	color:#fff;
 	font-size:12px;
+	font-weight: bold;
 }
 .rndbtn.square {
 	height:42px;
@@ -126,11 +127,13 @@ body .nopad {
 	font-family: 'Roboto', sans-serif;
 }
 .pagehead h1 {
-	font-size:45px;
+	font-size: 5em;
 	font-weight:400;
+	text-shadow: 1px 1px 1px #888;
 }
 .pagehead h1 span {
 	font-weight:700;
+	display: block;
 }
 .pagehead p {
 	font-size: 25px;
@@ -145,7 +148,7 @@ body .nopad {
 }
 .logo-kollaedu-top {
 	position: absolute;
-    top: 0px;
+    top: -10px;
     width: 180px;
 }
 .logo-gojek-top {
@@ -162,6 +165,13 @@ body .nopad {
 .logo-gojek {
 	position: absolute;
   top: -50px;
+}
+.logo-kollaedu-middle {
+	width: 350px;
+	margin-top: 125px;
+}
+.logo-gojek-middle {
+	width: 350px;
 }
 .logo-ror {
 	margin: 130px 0 0 0;
@@ -236,7 +246,7 @@ p {
 
 }
 .carousel-indicators {
-	left: 37%;
+	left: 50%;
 }
 /* Media query added by ~ Sachin */
 @media (min-width: 640px) and (max-width: 990px)
@@ -314,8 +324,7 @@ p {
 	z-index:2000;
 }
 .abs.mleft {
-	/*left:-40px;*/
-	left: -250px;
+	left:-40px;
 	top:30px;
 	z-index:2000;
 }
