@@ -39,6 +39,13 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.img-team{
+	width: 257.5px;
+	height: 286px;
+	overflow: hidden;
+	text-align: center;	
+}
+
 .client_logos3 img{
 	height: 50px;
 }
@@ -3977,6 +3984,7 @@
 .featured_section69 p {
 	width: 92%;
 	margin-top: 12px;
+	text-align: left;
 }
 .featured_section69 .box {
 	float: left;
@@ -3989,10 +3997,19 @@
 	background: #f6f6f6;
 }
 .featured_section69 .box.three {
-	background: #f3f3f3;
+	background: #f5f5f5;
 }
 .featured_section69 .box.four {
+	background: #f3f3f3;
+}
+.featured_section69 .box.five {
 	background: #eee;
+}
+.featured_section69 .box.six {
+	background: #e2e2e2;
+}
+.featured_section69 .box.seven {
+	background: #e0e0e0;
 }
 .featured_section69 .box i {
 	color: #393939;
@@ -4000,9 +4017,10 @@
 	margin-bottom: 12px;
 }
 .featured_section69 .box p {
-	color: #999;
+	color: #393939;
 	font-size: 13px;
 	line-height: 18px;
+	text-align: center;
 }
 
 
@@ -8779,7 +8797,7 @@ ul.footer_social_links5 {
 	text-align: left;
 	margin-top: 100px;
 	padding: 100px 0px 60px 0px;
-	background: #999 url(../images/page-title-bg1.jpg) no-repeat center top;
+	background: #999 url(../img/aboutuspagekollaedu/banner.jpg) no-repeat center top;
 }
 .page_title1 h1 {
 	color: #fff;
