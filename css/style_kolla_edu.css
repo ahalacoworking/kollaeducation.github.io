@@ -39,6 +39,17 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.lazyOwl{
+	height: 420px;
+}
+
+.img-gallery{
+	width: 562px;
+	height: 420px;
+	overflow: hidden;
+	text-align: center;	
+}
+
 .img-team{
 	width: 257.5px;
 	height: 286px;
@@ -4232,6 +4243,7 @@
 	float: left;
 	width: 100%;
 	background: #fff;
+	height: 150px;
 	padding: 45px 40px 50px 40px;
 }
 .featured_section78 .box img {
@@ -4717,7 +4729,7 @@
 .featured_section92 {
 	float: left;
 	width: 100%;
-	background: #f3f3f3;
+	/*background: #f3f3f3;*/
 }
 
 
