@@ -48,6 +48,7 @@
 	height: 420px;
 	overflow: hidden;
 	text-align: center;	
+	margin: 0px auto;
 }
 
 .img-team{
@@ -4243,7 +4244,7 @@
 	float: left;
 	width: 100%;
 	background: #fff;
-	height: 150px;
+	/*height: 150px;*/
 	padding: 45px 40px 50px 40px;
 }
 .featured_section78 .box img {
@@ -8815,6 +8816,8 @@ ul.footer_social_links5 {
 	color: #fff;
 	font-size: 40px;
 	font-weight: 700;
+	color: #18ecf7;
+	text-shadow: 0px 2px 3px #555;
 	text-transform: uppercase;
 }
 .page_title1 h1 em {
@@ -9223,7 +9226,8 @@ ul.small_social_links {
 	display: block;
 }
 .blog_post h3 a {
-	color: #9eca45;
+	color: #18ecf7;
+	text-shadow: 0px 2px 3px #555;
 	text-decoration: none;
 	margin-top: 3px;
 	text-transform: none;
@@ -9784,8 +9788,8 @@ ul.adsbanner-list {
 	padding: 14px 20px;
 	font-size: 14px;
 	font-weight: 500;
-	background: #9eca45;
-	border: 1px solid #7ea821;
+	background: #18ecf7;
+	border: 1px solid #18ced7;
 	border-radius: 3px;
 	font-family: 'Raleway', sans-serif;
 	cursor: pointer;

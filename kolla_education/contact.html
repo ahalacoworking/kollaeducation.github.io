@@ -43,30 +43,41 @@
                             <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
                                 <nav>
                                     <ul class="nav navbar-nav">
-                                        <li>
-                                            <a href="index.html">
-                                                Home
-                                            </a>
+                                        <li class="dropdown"> <a href="index.html" class="dropdown-toggle">Home</a>
                                         </li>
-                                        <li>
-                                            <a href="about.html">
-                                                About Us
-                                            </a>
+                                        <li class="dropdown"><a href="about.html" class="dropdown-toggle">About Us</a>
                                         </li>
-                                        <li>
-                                            <a href="event.html">
-                                                Event
-                                            </a>
+                                        <li class="dropdown yamm"> <a href="#" class="dropdown-toggle active">Program</a>
+                                            <ul class="dropdown-menu">
+                                            <li> 
+                                            <div class="yamm-content" style="width: 440px;">
+                                              <div class="row">
+                                                                  
+                                                <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                    <li>
+                                                        <p>Regular</p>
+                                                    </li>
+                                                    <li><a href="coding_mum_regular.html"><i class="fa fa-angle-right"></i>Coding Mum Regular</a></li>
+                                                    <li><a href="coding_teen.html"><i class="fa fa-angle-right"></i>Coding Teen</a></li>
+                                                    <li><a href="coding_101.html"><i class="fa fa-angle-right"></i>Coding 101</a></li>
+                                                </ul>
+                                                
+                                                <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                    <li>
+                                                       <p>Kerjasama</p>
+                                                    </li>
+                                                    <li><a href="coding_mum_bekraf.html" class="active"><i class="fa fa-angle-right"></i>Coding Mum Bekraf</a></li>
+                                                    <li><a href="../go-scholartech-ror/index.html" target="_blank"><i class="fa fa-angle-right"></i>Go-Scholar Ruby On Rails</a></li>
+                                                    <li><a href="laravel_mongoDB.html"><i class="fa fa-angle-right"></i>Laravel MongoDB</a></li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                            </li>
+                                            </ul>
+                                        </li>  
+                                        <li class="dropdown"> <a href="blog.html" class="dropdown-toggle">Blog </a>
                                         </li>
-                                        <li>
-                                            <a href="blog.html">
-                                                Blog
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html" class="active">
-                                                Contact
-                                            </a>
+                                        <li class="dropdown"><a href="contact.html" class="dropdown-toggle">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -86,103 +97,117 @@
                     
                     <div class="one_half">
                       
-                        <p>Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.</p>
-                        <br />
-                        <p>Please be patient while waiting for response. (24/7 Support!) <strong>Phone General Inquiries: 1-888-123-4567-8900</strong></p>
+                        <p>Silahkan menghubungi kami untuk mengetahui informasi lebih lanjut mengenai kegiatan kami.</p>
                         <br /><br />
-                        
                         <div class="cforms">
-                        
-                        
                         <div id="form_status"></div>
                         <form type="POST" id="gsr-contact" onSubmit="return valid_datas( this );">
                             <label class="label">Name <em>*</em></label>
                             <label class="input">
                                 <input type="text" name="name" id="name">
                             </label>
-                            
                             <div class="clearfix"></div>
-                            
                             <label class="label">E-mail <em>*</em></label>
                             <label class="input">
                                 <input type="email" name="email" id="email">
                             </label>
-                    
-                            <!-- <div class="clearfix"></div>
-                    
-                    
-                            <label class="label">Phone <em>*</em></label>
-                            <label class="input">
-                                <input type="text" name="phone" id="phone">
-                            </label> -->
-                    
                             <div class="clearfix"></div>
-                    
                             <label class="label">Subject <em>*</em></label>
                             <label class="input">
                                 <input type="text" name="subject" id="subject">
                             </label>
-                    
                             <div class="clearfix"></div>
-                    
                             <label class="label">Message <em>*</em></label>
                             <label class="textarea">
                                 <textarea rows="5" name="message" id="message"></textarea>
                             </label>
-                    
                             <div class="clearfix"></div>
                             <input type="hidden" name="token" value="FsWga4&@f6aw" />
                             <button type="submit" class="button">Send Message</button>
-                            
                         </form> 
-                        
-                        
-                        
-                        
-                        
                         </div>
-                        
                       </div>
-                      
                       <div class="one_half last">
-                      
                         <div class="address_info">
-                        
-                          <h4>Company <strong>Address</strong></h4>
-                          <ul>
-                            <li> <strong>Company Name</strong><br />
-                              2901 Marmora Road, Glassgow, Seattle, WA 98122-1090<br />
-                              Telephone: +1 1234-567-89000<br />
-                              FAX: +1 0123-4567-8900<br />
-                              E-mail: <a href="mailto:mail@companyname.com">mail@companyname.com</a><br />
-                              Website: <a href="index.html">www.yoursitename.com</a> </li>
-                          </ul>
+                            <span>
+                            <h4>Kolla Sabang</h4>
+                            Jalan Haji Agus Salim No.32B, lantai 2, RT.2/RW.1 Kebon Sirih, Menteng,<br/>
+                            Central Jakarta City, Jakarta 10340<br />
+                            Telepon: (021) 50201021<br />
+                            E-mail: <a href="mailto:contact@kollaspace.com">contact@kollaspace.com</a><br />
+                            Website: kolla.id<br />
+                            </span>
+                            <br />
+                            <span>
+                            <h4>Kolla Kedoya</h4>
+                            Jl. Kedoya Albasia Raya Blok B XI no. 13, RT.8/RW.4, Kedoya Sel., Kb. Jeruk,<br />
+                            Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520 <br />
+                            Telepon: (021) 50201021<br />
+                            E-mail: <a href="mailto:contact@kollaspace.com">contact@kollaspace.com</a><br />
+                            Website: kolla.id<br />
+                            </span>
                         </div>
                         <div class="clearfix"></div>
-                        <h4>Find the <strong>Address</strong></h4>
-                        <iframe class="google-map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=WA,+United+States&amp;aq=0&amp;oq=WA&amp;sll=47.605288,-122.329296&amp;sspn=0.008999,0.016544&amp;ie=UTF8&amp;hq=&amp;hnear=Washington,+District+of+Columbia&amp;t=m&amp;z=7&amp;iwloc=A&amp;output=embed"></iframe>
+                        <h4>Temukan Lokasi Kami</h4>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1ApiO5lsizqy3bNJs_6G5oOa-cjE" width="640" height="480"></iframe>
                         <br />
                         <small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=WA,+United+States&amp;aq=0&amp;oq=WA&amp;sll=47.605288,-122.329296&amp;sspn=0.008999,0.016544&amp;ie=UTF8&amp;hq=&amp;hnear=Washington,+District+of+Columbia&amp;t=m&amp;z=7&amp;iwloc=A">View Larger Map</a></small> </div>
                 </div>
             </div>
-            <footer class="footer4">
+            <footer class="footer6">
                 <div class="container">
-                    <div class="fmlinks">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Event</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
+                    <div class="column2 animate" data-anim-type="fadeIn" data-anim-delay="100">
+                        <h3>About Us</h3>
+                        <p>
+                        Kolla Education hadir untuk ikut mengenalkan literasi teknologi. Agar masyarakat tidak hanya menjadi pengguna teknologi saja, namun juga memahami, mengembangkan dan mampu membuat teknologi sebagai solusi masalah sehari-hari. Kolla education memiliki moto, <i>"Akademi edukasi untuk literasi teknologi"</i>.
+                        </p>
                     </div>
-                    Copyright © 2017 Kolla. All rights reserved.
-                    <a href="#">Terms of Use</a> | 
-                    <a href="#">Privacy Policy</a>
-                    <div class="footer_social_links4">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-rss"></i></a>
+                    <div class="column1 animate" data-anim-type="fadeIn" data-anim-delay="150">
+                        <h3 style="padding-left: 20px">Our Program</h3>
+                        <ul style="padding-left: 20px">
+                            <li><a href="coding_mum_bekraf.html">Coding Mum Bekraf</a></li>
+                            <li><a href="go_scholar_ruby_on_rails.html">Go Scholar Ruby On Rails</a></li>
+                            <li><a href="coding_mum_regular.html">Coding Mum Regular</a></li>
+                            <li><a href="coding_teen.html">Coding Teen</a></li>
+                            <li><a href="coding_101.html">Coding 101</a></li>
+                            <li><a href="digital_marketing.html">Digital Marketing</a></li>
+                            <li><a href="laravel_mongoDB.html">Laravel MongoDB</a></li>
+                        </ul>
+                    </div>
+                    <div class="column1 animate" data-anim-type="fadeIn" data-anim-delay="200">
+                        <h3>Our Clients</h3>
+                        <ul class="clogos">
+                            <li><img src="../img/homepagekolla/gojek-logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/mandiri_logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/insan_logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/bekraf-logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/kemenPANRB_logo.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="column1 last animate" data-anim-type="fadeIn" data-anim-delay="250">
+                        <h3>Get Connected</h3>
+                        <ul class="footer_social_links3 styltwo">
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="clearfix margin_top2"></div>
+                        <div class="input-group margin">
+                            <input type="text" class="form-control" placeholder="Enter Your Email">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-primary btn-flat">Subscribe!</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="copyright_info4">
+                    <div class="container">
+                        <div class="clearfix divider_dashed10"></div>
+                        <div class="one_half animate" data-anim-type="fadeInRight" data-anim-delay="200">
+                            Copyright © 2017 Kolla. All rights reserved.
+                        </div>
                     </div>
                 </div>
             </footer>
