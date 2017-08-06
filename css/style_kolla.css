@@ -9186,8 +9186,9 @@ ul.small_social_links {
 	display: block;
 }
 .blog_post h3 a {
-	color: #9eca45;
+	color: #f9e90b;
 	text-decoration: none;
+	text-shadow: 0px 2px 3px #555;
 	margin-top: 3px;
 	text-transform: none;
 	font-weight: 400;
