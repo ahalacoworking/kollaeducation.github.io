@@ -13,13 +13,13 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../css/reset.css" type="text/css" />
-    	<link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../css/reset_kolla_edu.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style_kolla_edu.css" type="text/css" />
         <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" media="screen" href="../css/shortcodes.css" type="text/css" /> 
         <link href="../js/mainmenu/bootstrap.min.css" rel="stylesheet">
-    	<link href="../js/mainmenu/menu12.css" rel="stylesheet">
-    	<link rel="stylesheet" href="../js/masterslider/style/masterslider2.css" />
+        <link href="../js/mainmenu/menu_kolla_edu.css" rel="stylesheet">
+        <link rel="stylesheet" type='text/css' href="../js/masterslider/style/masterslider_kolla_edu.css" />
         <link rel="stylesheet" href="../js/masterslider/skins/default/style.css" />
         <link href='../js/masterslider/style/ms-tabs-style2.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="../js/tabs/tabwidget/tabwidget.css" />
@@ -43,30 +43,41 @@
                             <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
                                 <nav>
                                     <ul class="nav navbar-nav">
-                                        <li>
-                                            <a href="index.html">
-                                                Home
-                                            </a>
+                                        <li class="dropdown"> <a href="index.html" class="dropdown-toggle">Home</a>
                                         </li>
-                                        <li>
-                                            <a href="about.html">
-                                                About Us
-                                            </a>
+                                        <li class="dropdown"><a href="about.html" class="dropdown-toggle">About Us</a>
                                         </li>
-                                        <li>
-                                            <a href="event.html">
-                                                Event
-                                            </a>
+                                        <li class="dropdown yamm"> <a href="#" class="dropdown-toggle">Program</a>
+                                            <ul class="dropdown-menu">
+                                            <li> 
+                                            <div class="yamm-content" style="width: 440px;">
+                                              <div class="row">
+                                                                  
+                                                <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                    <li>
+                                                        <p>Regular</p>
+                                                    </li>
+                                                    <li><a href="coding_mum_regular.html"><i class="fa fa-angle-right"></i>Coding Mum Regular</a></li>
+                                                    <li><a href="coding_teen.html"><i class="fa fa-angle-right"></i>Coding Teen</a></li>
+                                                    <li><a href="coding_101.html"><i class="fa fa-angle-right"></i>Coding 101</a></li>
+                                                </ul>
+                                                
+                                                <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                    <li>
+                                                       <p>Kerjasama</p>
+                                                    </li>
+                                                    <li><a href="coding_mum_bekraf.html"><i class="fa fa-angle-right"></i>Coding Mum Bekraf</a></li>
+                                                    <li><a href="../go-scholartech-ror/index.html" target="_blank"><i class="fa fa-angle-right"></i>Go-Scholar Ruby On Rails</a></li>
+                                                    <li><a href="laravel_mongoDB.html"><i class="fa fa-angle-right"></i>Laravel MongoDB</a></li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                            </li>
+                                            </ul>
+                                        </li>                                
+                                        <li class="dropdown"> <a href="blog.html" class="dropdown-toggle active">Blog </a>
                                         </li>
-                                        <li>
-                                            <a href="blog.html" class="active">
-                                                Blog
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">
-                                                Contact
-                                            </a>
+                                        <li class="dropdown"><a href="contact.html" class="dropdown-toggle">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -84,134 +95,127 @@
             <div class="clearfix"></div>
             <div class="content_fullwidth less2">
             <div class="container">
-            <div class="content_left">
-                <div class="blog_post"> 
-                    <div class="blog_postcontent">
-                    <div class="image_frame"><a href="#"><img src="http://placehold.it/1170x520" alt="" /></a></div>
-                    <h3><a href="blog-post.html">Many web sites still in their infancy</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">27 May 2015</a></li>
-                            <li class="post_by"><i>by:</i> <a href="#">Adam Harrison</a></li>
-                            <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li>
-                        </ul>
-                     <div class="clearfix"></div>
-                     <div class="margin_top1"></div>
-                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years <a href="#">read more...</a></p>
+                    <div class="blog_post"> 
+                        <div class="blog_postcontent">
+                        <div class="image_frame"><a href="#"><img src="../img/blogpage/berita_1.jpg" alt="" /></a></div>
+                        <h3><a href="https://dailysocial.id/post/kolla-dan-pelatihan-literasi-kode-untuk-usia-dini">Kolla dan Pelatihan Literasi Kode Untuk Usia Dini</a></h3>
+                            <ul class="post_meta_links">
+                                <li><a href="#" class="date">5 Juni 2017</a></li>
+                            </ul>
+                         <div class="clearfix"></div>
+                         <div class="margin_top1"></div>
+                        <p>Pada Jumat (2/6), DailySocial berkesempatan menghadiri acara kelulusan Pelatihan Coding Teen untuk 40 pelajar SMP Katolik Sint Joseph yang diadakan oleh co-working spaceKolla. Mereka dinyatakan telah lulus mengikuti kelas Front-End Web Development selama 14 kali pertemuan (April-Mei 2017). Seluruh peserta merupakan anak-anak yang diasuh Panti Asuhan Vintentius Jakarta. <a href="https://dailysocial.id/post/kolla-dan-pelatihan-literasi-kode-untuk-usia-dini">read more...</a></p>
+                        </div>
+                    </div><!-- /# end post -->
+                    <div class="clearfix divider_line9"></div>
+                    <div class="blog_post"> 
+                        <div class="blog_postcontent">
+                        <div class="image_frame"><a href="#"><img src="../img/blogpage/berita_2.jpg" alt="" /></a></div>
+                        <h3><a href="https://kumparan.com/aditya-panji/coding-mum-ketika-ibu-ibu-belajar-coding-dan-bikin-website">Ketika Ibu-ibu Belajar Coding dan Bikin Website</a></h3>
+                            <ul class="post_meta_links">
+                                <li><a href="#" class="date">4 May 2017</a></li>
+                            </ul>
+                         <div class="clearfix"></div>
+                         <div class="margin_top1"></div>
+                        <p>Hidup di era digital membuat manusia mau tak mau harus melek teknologi. Kini, kemajuan teknologi telah menjangkau berbagai lapisan masyarakat, termasuk kalangan ibu-ibu yang akrab dengan smartphone, bahkan bermedia sosial. Beberapa ibu-ibu ternyata tidak mau hanya sebagai penikmat saja, mereka dengan antusias mengikuti pelatihan Coding Mum yang digelar Kolla Education.<a href="https://kumparan.com/aditya-panji/coding-mum-ketika-ibu-ibu-belajar-coding-dan-bikin-website">read more...</a></p>
+                        </div>
                     </div>
-                </div><!-- /# end post -->
-                <div class="clearfix divider_line9"></div>
-                <div class="blog_post"> 
-                    <div class="blog_postcontent">
-                    <div class="image_frame"><a href="#"><img src="http://placehold.it/1170x520" alt="" /></a></div>
-                    <h3><a href="blog-post.html">Letraset sheets containing lorem passages</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">26 May 2015</a></li>
-                            <li class="post_by"><i>by:</i> <a href="#">Adam Harrison</a></li>
-                            <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li>
-                        </ul>
-                     <div class="clearfix"></div>
-                     <div class="margin_top1"></div>
-                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years <a href="#">read more...</a></p>
+                    <div class="clearfix divider_line9"></div>
+                    <div class="blog_post"> 
+                        <div class="blog_postcontent">
+                        <div class="image_frame"><a href="#"><img src="../img/blogpage/berita_3.jpg" alt="" /></a></div>
+                        <h3><a href="http://mashable.com/2017/04/19/coding-mum-singapore-hk/#thLnBArY2Pq4">Coding Mum Singapore</a></h3>
+                            <ul class="post_meta_links">
+                                <li><a href="#" class="date">19 April 2017</a></li>
+                            </ul>
+                         <div class="clearfix"></div>
+                         <div class="margin_top1"></div>
+                        <p>
+                                Indonesia's foreign domestic workers have a way to pick up coding skills, thanks to new courses being organised in the cities they work in. The two-month-long coding course, is being run by the Indonesian government's Creative Economy Agency (Bekraf), and is similar to one it's already started running back home for stay-at-home mothers, called "Coding Mum."
+                                <a href="http://mashable.com/2017/04/19/coding-mum-singapore-hk/#thLnBArY2Pq4">read more...</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="clearfix divider_line9"></div>
-                <div class="blog_post"> 
-                    <div class="blog_postcontent">
-                    <div class="video_frame"><iframe src="http://www.youtube.com/embed/YRb-xF0RW-k"></iframe></div>
-                    <h3><a href="blog-post.html">Through the cites of the word in classical literature</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">25 May 2015</a></li>
-                            <li class="post_by"><i>by:</i> <a href="#">Adam Harrison</a></li>
-                            <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li>
-                        </ul>
-                     <div class="clearfix"></div>
-                     <div class="margin_top1"></div>
-                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years <a href="#">read more...</a></p>
+                    <div class="clearfix divider_line9"></div>
+                    <div class="blog_post"> 
+                        <div class="blog_postcontent">
+                        <div class="image_frame"><a href="#"><img src="../img/blogpage/berita_4.jpg" alt="" /></a></div>
+                        <h3><a href="blog-post.html">Coding Mum Cara Bekraf Lahirkan Ibu Programmer</a></h3>
+                            <ul class="post_meta_links">
+                                <li><a href="#" class="date">16 Maret 2017</a></li>
+                            </ul>
+                         <div class="clearfix"></div>
+                         <div class="margin_top1"></div>
+                        <p>
+                        Seiring perkembangan teknologi informasi, kebutuhan pemrogram alias programer untuk industri aplikasi digital terus meningkat. Tidak heran jika Badan Ekonomi Kreatif atau Bekraf di Indonesia mengajak para ibu rumah tangga untuk menjadi programer.
+                        <a href="http://www.viva.co.id/digital/digilife/894702-coding-mum-cara-bekraf-lahirkan-ibu-programmer" target="_blank">read more...</a></p>
+                        </div>
                     </div>
-                </div>
-                <div class="clearfix divider_line9"></div>
-                <div class="blog_post"> 
-                    <div class="blog_postcontent">
-                    <div class="image_frame"><a href="#"><img src="http://placehold.it/1170x520" alt="" /></a></div>
-                    <h3><a href="blog-post.html">Making this the first true generator on the internet</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">24 May 2015</a></li>
-                            <li class="post_by"><i>by:</i> <a href="#">Adam Harrison</a></li>
-                            <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li>
-                        </ul>
-                     <div class="clearfix"></div>
-                     <div class="margin_top1"></div>
-                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years <a href="#">read more...</a></p>
+                    <div class="clearfix divider_line13 margin_top4 lessm"></div>
+                    <div>
+                    <div class="pagination">
+                        <b>Page 1 of 1</b>
+                      <!--   <a href="#" class="navlinks">&lt; Previous</a>
+                        <a href="#" class="navlinks">1</a>
+                        <a href="#" class="navlinks current">2</a>
+                        <a href="#" class="navlinks">3</a>
+                        <a href="#" class="navlinks">4</a>
+                        <a href="#" class="navlinks">Next ></a> -->
                     </div>
-                </div>
-                <div class="clearfix divider_line9"></div>
-                <div class="blog_post"> 
-                    <div class="blog_postcontent">
-                    <div class="image_frame"><a href="#"><img src="http://placehold.it/1170x520" alt="" /></a></div>
-                    <h3><a href="blog-post.html">Versions have evolved over the years</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">23 May 2015</a></li>
-                            <li class="post_by"><i>by:</i> <a href="#">Adam Harrison</a></li>
-                            <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li>
-                        </ul>
-                     <div class="clearfix"></div>
-                     <div class="margin_top1"></div>
-                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years <a href="#">read more...</a></p>
-                    </div>
-                </div>
-                <div class="clearfix divider_line13 margin_top4 lessm"></div>
-                <div>
-                <div class="pagination">
-                    <b>Page 1 of 1</b>
-                  <!--   <a href="#" class="navlinks">&lt; Previous</a>
-                    <a href="#" class="navlinks">1</a>
-                    <a href="#" class="navlinks current">2</a>
-                    <a href="#" class="navlinks">3</a>
-                    <a href="#" class="navlinks">4</a>
-                    <a href="#" class="navlinks">Next ></a> -->
-                </div>
                 </div>
             </div>
-            <div class="right_sidebar">
-                <div class="sidebar_widget">
-                    <div class="sidebar_title"><h4>Site Categories</h4></div>
-                    <ul class="arrows_list1">       
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Economics</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Social Media</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Economics</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Online Gaming</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Entertainment</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Technology</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Make Money Online</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Photography</a></li>
-                        <li><a href="#"><i class="fa fa-caret-right"></i> Web Tutorials</a></li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            <footer class="footer4">
+            <footer class="footer6">
                 <div class="container">
-                    <div class="fmlinks">
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Event</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
+                    <div class="column2 animate" data-anim-type="fadeIn" data-anim-delay="100">
+                        <h3>About Us</h3>
+                        <p>
+                        Kolla Education hadir untuk ikut mengenalkan literasi teknologi. Agar masyarakat tidak hanya menjadi pengguna teknologi saja, namun juga memahami, mengembangkan dan mampu membuat teknologi sebagai solusi masalah sehari-hari. Kolla education memiliki moto, <i>"Akademi edukasi untuk literasi teknologi"</i>.
+                        </p>
                     </div>
-                    Copyright © 2017 Kolla. All rights reserved.
-                    <a href="#">Terms of Use</a> | 
-                    <a href="#">Privacy Policy</a>
-                    <div class="footer_social_links4">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-rss"></i></a>
+                    <div class="column1 animate" data-anim-type="fadeIn" data-anim-delay="150">
+                        <h3 style="padding-left: 20px">Our Program</h3>
+                        <ul style="padding-left: 20px">
+                            <li><a href="coding_mum_bekraf.html">Coding Mum Bekraf</a></li>
+                            <li><a href="../go-scholartech-ror/index.html" target="_blank">Go Scholar Ruby On Rails</a></li>
+                            <li><a href="coding_mum_regular.html">Coding Mum Regular</a></li>
+                            <li><a href="coding_teen.html">Coding Teen</a></li>
+                            <li><a href="coding_101.html">Coding 101</a></li>
+                            <li><a href="laravel_mongoDB.html">Laravel MongoDB</a></li>
+                        </ul>
+                    </div>
+                    <div class="column1 animate" data-anim-type="fadeIn" data-anim-delay="200">
+                        <h3>Our Clients</h3>
+                        <ul class="clogos">
+                            <li><img src="../img/homepagekolla/gojek-logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/mandiri_logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/insan_logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/bekraf-logo.png" alt=""></li>
+                            <li><img src="../img/homepagekolla/kemenPANRB_logo.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="column1 last animate" data-anim-type="fadeIn" data-anim-delay="250">
+                        <h3>Get Connected</h3>
+                        <ul class="footer_social_links3 styltwo">
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="clearfix margin_top2"></div>
+                        <div class="input-group margin">
+                            <input type="text" class="form-control" placeholder="Enter Your Email">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-primary btn-flat">Subscribe!</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="copyright_info4">
+                    <div class="container">
+                        <div class="clearfix divider_dashed10"></div>
+                        <div class="one_half animate" data-anim-type="fadeInRight" data-anim-delay="200">
+                            Copyright © 2017 Kolla. All rights reserved.
+                        </div>
                     </div>
                 </div>
             </footer>

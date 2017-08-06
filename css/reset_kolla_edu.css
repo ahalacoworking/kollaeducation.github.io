@@ -343,6 +343,13 @@ p.gray {
 }
 
 
+ol.gray {
+	color: #999;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+
 ul.defaulf {
 	list-style: inherit;
 	margin: 0 0 0 14px;
@@ -445,7 +452,7 @@ sub {
 
 /* Links */
 a {
-	color: #9eca45;
+	color: #18ecf7;
 	text-decoration: none;
 }
 a:hover {

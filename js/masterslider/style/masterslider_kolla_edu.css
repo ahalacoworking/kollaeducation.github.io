@@ -331,9 +331,9 @@
 
 .ms-tabs .ms-thumb-frame {
 	background-color: #f3f3f3;
-	text-shadow: 0 1px 1px white;
+	text-shadow: 0 1px 1px #f3f3f3;
 	color: #222;
-	border: solid 1px white;
+	border: solid 1px #f3f3f3;
 	border-width: 0 1px 1px 0;
 	overflow: visible;
 	position: relative;
@@ -351,7 +351,7 @@
 .ms-tabs.ms-dir-h.ms-align-top {z-index: 140;} 
 .ms-tabs.ms-dir-h.ms-align-top  .ms-thumb-frame{margin-top: -12px;} 
 .ms-tabs .ms-thumb{padding: 0px 0px; text-align: center;}
-.ms-tabs .ms-thumb-frame-selected {	opacity: 1; background: #fff;}
+.ms-tabs .ms-thumb-frame-selected {	opacity: 1; background: #18ecf7;}
 .ms-tabs .ms-thumb-frame .ms-thumb-ol {
     position: absolute;
     opacity: 0;
@@ -374,7 +374,7 @@
 .ms-tabs.ms-dir-h.ms-align-bottom .ms-thumb-frame-selected .ms-thumb-ol{
 	opacity: 1;
 	top:-12px;
-	border-bottom-color: #fff;
+	border-bottom-color: #18ecf7;
 }
 
 .ms-tabs.ms-dir-h.ms-align-top .ms-thumb-frame .ms-thumb-ol {
