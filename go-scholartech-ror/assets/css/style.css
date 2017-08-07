@@ -62,7 +62,7 @@ body .nopad {
 	margin:auto;
 }
 .navhead {
-	background:rgba(255, 255, 255, 0.5);
+	background:rgba(255, 255, 255, 1);
 	padding:10px 0 0;
 }
 .menupad {padding:15px 0;}
