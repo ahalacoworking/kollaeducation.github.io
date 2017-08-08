@@ -151,8 +151,8 @@ body .nopad {
 .pagehead h1 {
 	font-size: 7em;
 	font-weight:700;
-	color: #222;
-	text-shadow: 1px 1px 1px #888;
+	color: rgba(249, 233, 11, 1);
+	text-shadow: 1px 1px 5px #888;
 }
 .pagehead h1 span {
 	display: block;
