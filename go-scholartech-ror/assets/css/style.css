@@ -149,12 +149,12 @@ body .nopad {
 	font-family: 'Roboto', sans-serif;
 }
 .pagehead h1 {
-	font-size: 6em;
+	font-size: 7em;
 	font-weight:700;
+	color: #222;
 	text-shadow: 1px 1px 1px #888;
 }
 .pagehead h1 span {
-	font-weight:400;
 	display: block;
 }
 .pagehead p {
