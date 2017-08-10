@@ -33,6 +33,8 @@
 
 .master-slider img, .ms-slide-bgvideocont video {max-width:none;}
 
+
+
 .ms-ie img{border:none;}
 .ms-ie8 * {opacity:inherit;filter:inherit;}
 .ms-ie7   {zoom:1;}
