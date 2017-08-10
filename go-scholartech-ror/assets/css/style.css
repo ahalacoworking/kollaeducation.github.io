@@ -1189,6 +1189,10 @@ table th {
 	font-size: 0.8em;
 	margin: 1em 0;
 }
+.pengumuman {
+		line-height: 45px;
+		font-weight: bold;
+}
 @media (max-width: 767px) {
 
 }
@@ -1435,7 +1439,7 @@ table th {
 }
 .timeline-horizontal .timeline-item {
   display: table-cell;
-  height: 18em;
+  height: 20em;
   width: 20%;
   min-width: 320px;
   float: none !important;
