@@ -203,7 +203,6 @@
 	font-size: 18px;
 	line-height: 27px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
 	width: 40%;
 }
 .ms-layer.text3.center {
@@ -641,6 +640,7 @@
 .ms-layer.sbut2.white2 {
 	background-color:#f9e90b;
 	color:#393939;
+	font-weight: 800;
 }
 
 .ms-layer.sbut2.white2:hover {
