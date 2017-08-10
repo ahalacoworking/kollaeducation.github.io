@@ -39,6 +39,23 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+#iframe_main {
+    height: 100%;
+    width: 120%;
+	margin-top:-260px;
+	margin-left:-50px;
+}
+
+#idiv {
+	width: 600px;
+	overflow:hidden;
+	height: 940px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
 
 .img-team{
 	width: 257px;
