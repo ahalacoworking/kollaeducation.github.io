@@ -40,14 +40,15 @@
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
 .img-team{
-	width: 257.5px;
+	width: 257px;
 	height: 286px;
 	overflow: hidden;
 	text-align: center;	
 }
 
 .img-team img{
-	width: 400px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .img-event{
@@ -382,7 +383,7 @@
 	margin-top:23px;
 	position: relative;
 	text-indent:-999em;
-	background:url(../img/kolla.png) no-repeat left top;
+	background:url(../img/logo-kolla/logo-kolla.png) no-repeat left top;
 	background-size: 180px 50px;
 }
 
@@ -3390,7 +3391,7 @@
 .featured_section56 .right {
 	float: left;
 	width: 50%;
-	padding: 100px 0px;
+	padding: 100px 0px 0px 0px;
 	background: #ececec;
 }
 .featured_section56 .right .cont {
@@ -3410,6 +3411,16 @@
 	line-height: 50px;
 	margin-right: 12px;
 }
+.featured_section56 li {
+	line-height: 30px;
+	list-style-position: outside;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+
 
 
 /* featured section 57 */
@@ -3901,7 +3912,7 @@
 	width: 50%;
 	height: 450px;
 	position: absolute;
-	background: rgb(249, 233, 11);
+	background: rgb(228, 228, 228);
 }
 .featured_section67 .box {
 	color: #454545;
@@ -4643,8 +4654,11 @@
 .featured_section91 .one_fourth .persoci {
 	float: left;
 	width: 100%;
+	height: 50px;
 	padding: 10px 10px;
 	background: #575757;
+	text-align: center;
+	color: #f9e90b;
 	position: absolute;
 	left: 0;
 	bottom: -38px;
@@ -5249,7 +5263,7 @@
 	width: 100%;
 	padding: 113px 0px 130px 0px;
 	text-align: center;
-	background: #f3f3f3;
+	/*background: #f3f3f3;*/
 }
 .featured_section108 .one_fifth {
 	padding: 45px 20px;
@@ -6306,8 +6320,20 @@
 	float: left;
 	width: 100%;
 	padding: 85px 0px 110px 0px;
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 }
+
+.featured_section142 h4 {
+	text-align: center;
+	font-size: 24px !important;
+}
+
+.featured_section142 h3 {
+	font-size: 18px !important;
+	padding: 0px;
+	margin: 5px 0px;
+}
+
 .featured_section142 a img:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	-moz-opacity: 0.7;
@@ -6322,7 +6348,7 @@
 .featured_section142 .addes {
 	float: left;
 	width: 100%;
-	height: 130px;
+	height: 140px;
 	padding: 14px 10px 14px 27px;
 	background: #fff;
 	color: #181818;
@@ -6332,6 +6358,7 @@
 }
 .featured_section142 .addes strong {
 	font-size: 14px;
+	margin: 5px 0px;
 	display: block;
 	font-weight: 600;
 }
@@ -8596,17 +8623,12 @@ ul.footer_social_links5 {
 	margin-left: 200px;
 }
 
-.client_logos3 img{
-	height: 50px;
-}
-
 .client_logos3 li {
 	float: left;
-	width: 19.3%;
 	padding: 20px 0px;
 	text-align: center;
 	margin: 0 10px 10px 0;
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	vertical-align: middle;
 }
 .client_logos3 li.last {
@@ -8770,7 +8792,8 @@ ul.footer_social_links5 {
 	text-align: left;
 	margin-top: 100px;
 	padding: 100px 0px 60px 0px;
-	background: #999 url(../img/aboutuspagekolla/banner.png) no-repeat center top;
+	background-color: #e4e4e4;
+	/*background: #999 url(../img/aboutuspagekolla/banner.png) no-repeat center top;*/
 }
 .page_title1 h1 {
 	color: #fff;
