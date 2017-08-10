@@ -39,6 +39,7 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+
 .img-team{
 	width: 257px;
 	height: 286px;
@@ -2325,7 +2326,7 @@
 	width: 100%;
 	text-align: center;
 	/*background: #f3f3f3;*/
-	padding: 113px 0px;
+	padding: 0px 0px 100px 0px;
 }
 .featured_section24 .bbox {
 	float: left;
@@ -2383,7 +2384,7 @@
 	color: #ccc;
 }
 .featured_section24 .one_half.last a {
-	color: #50c9d4;
+	color: #727272;
 	transition: all 0.3s ease;
 }
 .featured_section24 .one_half.last a:hover {
