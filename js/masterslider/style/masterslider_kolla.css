@@ -317,7 +317,7 @@
 .ms-thumb-list.ms-dir-h {width: 100%;}
 .ms-thumb-list.ms-dir-v {height: 100%; top: 0;}
 .ms-thumbs-cont{position: relative;}
-.ms-thumb-frame img{width:100%;	height:auto;}
+.ms-thumb-frame img{width:50px; margin-top: 20px; margin-bottom: 10px; padding: 0px;}
 .ms-thumb-frame{
 	cursor: pointer;
 	float: left;

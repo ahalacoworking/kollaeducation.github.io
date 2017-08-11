@@ -1,8 +1,5 @@
-ul.nav>li>a {
-    text-shadow: 1px 1px 2px #000000;
-}
 ul.nav>li>a.active {
-	color:#18ecf7;
+	color:#0269a4;
 }
 ul.nav>li>a.active:after{
      position: absolute;
@@ -15,11 +12,11 @@ ul.nav>li>a.active:after{
 }
 
 ul.nav>li>a:hover.active {
-	color:#18ecf7;
+	color:#0269a4;
 }
 
 ul.nav>li>a:hover {
-	color:#18ecf7;
+	color:#0269a4;
 	transition: all 0.3s ease;
 }
 ul.nav>li>a:hover:after{
@@ -765,7 +762,7 @@ ul.nav>li>a:hover:after{
 
 
 .navbar-default .navbar-nav>li>a {
-color: #bbb;
+color: #000;
 font-size:16px;
 font-weight: 500;
 text-transform: uppercase;
