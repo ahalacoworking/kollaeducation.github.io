@@ -39,6 +39,14 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.calendar{
+	margin: 15px 0px 5px 0px;
+}
+
+.calendar li{
+	margin-right: 5px;
+}
+
 #iframe_main {
     height: 100%;
     width: 120%;
@@ -6368,7 +6376,7 @@
 .featured_section142 .addes {
 	float: left;
 	width: 100%;
-	height: 140px;
+	height: 320px;
 	padding: 14px 10px 14px 27px;
 	background: #fff;
 	color: #181818;
@@ -6376,6 +6384,17 @@
 	line-height: 18px;
 	margin-bottom: 18px;
 }
+
+.featured_section142 .addes p{
+	text-align: justify;
+	margin-right: 10px;
+}
+
+
+.featured_section142 .addes hr{
+	margin: 30px 10px 10px 0px;
+}
+
 .featured_section142 .addes strong {
 	font-size: 14px;
 	margin: 5px 0px;
