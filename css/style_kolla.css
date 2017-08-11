@@ -39,6 +39,7 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+
 .calendar{
 	margin: 15px 0px 5px 0px;
 }
@@ -2412,6 +2413,12 @@
 	color: #727272;
 	transition: all 0.3s ease;
 }
+
+.featured_section24 .one_half.last > h4 a {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
 .featured_section24 .one_half.last a:hover {
 	color: #393939;
 }
