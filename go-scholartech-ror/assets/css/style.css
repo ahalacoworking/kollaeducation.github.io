@@ -350,6 +350,11 @@ p {
 .carousel-inner>.item>img {
 	float:right;
 }
+
+/* Partner */
+.partner-edutekno {
+	width: 100px;
+}
 /* Media query added by ~ Sachin */
 @media (min-width: 640px) and (max-width: 990px)
 {
