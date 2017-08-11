@@ -351,7 +351,7 @@
 .ms-tabs.ms-dir-h.ms-align-top {z-index: 140;} 
 .ms-tabs.ms-dir-h.ms-align-top  .ms-thumb-frame{margin-top: -12px;} 
 .ms-tabs .ms-thumb{padding: 0px 0px; text-align: center;}
-.ms-tabs .ms-thumb-frame-selected {	opacity: 1; background: #18ecf7;}
+.ms-tabs .ms-thumb-frame-selected {	opacity: 1; background: #30b0f9;}
 .ms-tabs .ms-thumb-frame .ms-thumb-ol {
     position: absolute;
     opacity: 0;
@@ -374,7 +374,7 @@
 .ms-tabs.ms-dir-h.ms-align-bottom .ms-thumb-frame-selected .ms-thumb-ol{
 	opacity: 1;
 	top:-12px;
-	border-bottom-color: #18ecf7;
+	border-bottom-color: #30b0f9;
 }
 
 .ms-tabs.ms-dir-h.ms-align-top .ms-thumb-frame .ms-thumb-ol {

@@ -203,7 +203,7 @@
 	font-size: 18px;
 	line-height: 27px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
+	/*font-weight: 800;*/
 	width: 40%;
 }
 .ms-layer.text3.center {
@@ -329,7 +329,7 @@
 
 
 .ms-layer.text11 {
-	color: #18ecf7;
+	color: #30b0f9;
 	text-shadow: 0px 2px 3px #555;
 	font-size: 45px;
 	line-height: 50px;
@@ -640,10 +640,11 @@
 
 .ms-layer.sbut2.white2 {
 	color: #393939;
-	background: #18ecf7;
+	background: #30b0f9;
+	font-weight: 800;
 }
 .ms-layer.sbut2.white2:hover {
-	color: #18ecf7;
+	color: #30b0f9;
 	background: #393939;
 }
 
