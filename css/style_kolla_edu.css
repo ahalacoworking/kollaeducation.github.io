@@ -39,6 +39,23 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+#iframe_main {
+    height: 100%;
+    width: 120%;
+	margin-top:-260px;
+	margin-left:-50px;
+}
+
+#idiv {
+	width: 600px;
+	overflow:hidden;
+	height: 915px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
 .lazyOwl{
 	height: 420px;
 }
@@ -56,10 +73,6 @@
 	height: 286px;
 	overflow: hidden;
 	text-align: center;	
-}
-
-.client_logos3 img{
-	height: 50px;
 }
 
 .testimoni{
@@ -3934,7 +3947,7 @@
 	width: 50%;
 	height: 450px;
 	position: absolute;
-	background: #0269a4;
+	background: #e4e4e4;
 }
 .featured_section67 .box {
 	float: left;
@@ -4688,8 +4701,11 @@
 .featured_section91 .one_fourth .persoci {
 	float: left;
 	width: 100%;
+	height: 50px;
 	padding: 10px 10px;
 	background: #575757;
+	text-align: center;
+	color: #30b0f9;
 	position: absolute;
 	left: 0;
 	bottom: -38px;
@@ -8656,7 +8672,7 @@ ul.footer_social_links5 {
 	padding: 20px 0px;
 	text-align: center;
 	margin: 0 10px 10px 0;
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	vertical-align: middle;
 }
 .client_logos3 li.last {
@@ -8821,7 +8837,8 @@ ul.footer_social_links5 {
 	text-align: left;
 	margin-top: 100px;
 	padding: 100px 0px 60px 0px;
-	background: #999 url(../img/aboutuspagekollaedu/banner.jpg) no-repeat center top;
+	background: #e4e4e4;
+	/*url(../img/aboutuspagekollaedu/banner.jpg) no-repeat center top;*/
 }
 .page_title1 h1 {
 	color: #fff;
