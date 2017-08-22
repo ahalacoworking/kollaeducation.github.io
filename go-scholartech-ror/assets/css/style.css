@@ -352,9 +352,26 @@ p {
 }
 
 /* Partner */
-.partner-edutekno {
-	width: 100px;
+.partner-logo li {
+	width: 45%;
+	display: inline-block;
 }
+.partner-edutekno {
+	width: 60px;
+}
+.partner-fg {
+	width: 200px;
+}
+.partner-php {
+	width: 150px;
+}
+.partner-android {
+	width: 120px;
+}
+.partner-linux {
+	width: 80px;
+}
+
 /* Media query added by ~ Sachin */
 @media (min-width: 640px) and (max-width: 990px)
 {
