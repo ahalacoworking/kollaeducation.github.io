@@ -352,7 +352,11 @@ p {
 }
 
 /* Partner */
-.partner-logo li {
+.media-partner-logo li {
+	width: 20%;
+	display: inline-block;
+}
+.community-partner-logo li {
 	width: 45%;
 	display: inline-block;
 }
@@ -370,6 +374,9 @@ p {
 }
 .partner-linux {
 	width: 80px;
+}
+.partner-techinasia {
+	width: 250px;
 }
 
 /* Media query added by ~ Sachin */
