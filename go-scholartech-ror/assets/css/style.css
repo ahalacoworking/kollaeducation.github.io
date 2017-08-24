@@ -378,6 +378,17 @@ p {
 .partner-techinasia {
 	width: 250px;
 }
+.partner-kongkowitmedan {
+	width: 150px;
+	margin-top: 10%;
+}
+.partner-kodeaceh {
+	width: 200px;
+	margin-top: 10%;
+}
+.partner-rumahmillenials {
+	width: 130px;
+}
 
 /* Media query added by ~ Sachin */
 @media (min-width: 640px) and (max-width: 990px)
