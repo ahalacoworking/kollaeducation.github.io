@@ -357,17 +357,22 @@ p {
 	display: inline-block;
 }
 .community-partner-logo li {
-	width: 45%;
+	width: 24%;
 	display: inline-block;
+}
+#partner h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 .partner-edutekno {
 	width: 60px;
 }
 .partner-fg {
-	width: 200px;
+	width: 220px;
 }
 .partner-php {
-	width: 150px;
+	width: 180px;
 }
 .partner-android {
 	width: 120px;
@@ -380,16 +385,33 @@ p {
 }
 .partner-kongkowitmedan {
 	width: 150px;
-	margin-top: 10%;
 }
 .partner-kodeaceh {
 	width: 200px;
-	margin-top: 10%;
 }
 .partner-rumahmillenials {
-	width: 130px;
+	width: 150px;
 }
 .partner-procodecg {
+	width: 150px;
+}
+.partner-idruby {
+	width: 300px;
+}
+.partner-ieee {
+	width: 150px;
+}
+.partner-gumugu {
+	width: 150px;
+}
+.partner-proclub {
+	width: 150px;
+}
+.partner-hmifitb {
+	width: 150px;
+	margin-top: 10%;
+}
+.partner-hmifftumj {
 	width: 150px;
 }
 
