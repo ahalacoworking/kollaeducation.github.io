@@ -3954,7 +3954,7 @@
 	color: #393939;
 	font-size: 0.9em;
 	line-height: 25px;
-	padding: 50px 185px 0 0;
+	padding: 50px 250px 0 0;
 }
 .featured_section67 .box i {
 	float: left;
@@ -6369,6 +6369,7 @@
 	padding: 85px 0px 110px 0px;
 	background: #f3f3f3;
 }
+
 .featured_section142 h4 {
 	text-align: center;
 	font-size: 24px !important;
@@ -6379,6 +6380,7 @@
 	padding: 0px;
 	margin: 5px 0px;
 }
+
 .featured_section142 a img:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	-moz-opacity: 0.7;
@@ -6386,10 +6388,14 @@
 	opacity: 0.7;
 	transition: all 0.3s ease;
 }
+.featured_section142 p{
+	height: 100px;
+}
+
 .featured_section142 .addes {
 	float: left;
 	width: 100%;
-	height: 140px;
+	height: 320px;
 	padding: 14px 10px 14px 27px;
 	background: #fff;
 	color: #181818;
@@ -6397,8 +6403,20 @@
 	line-height: 18px;
 	margin-bottom: 18px;
 }
+
+.featured_section142 .addes p{
+	text-align: justify;
+	margin-right: 10px;
+}
+
+
+.featured_section142 .addes hr{
+	margin: 30px 10px 10px 0px;
+}
+
 .featured_section142 .addes strong {
 	font-size: 14px;
+	margin: 5px 0px;
 	display: block;
 	font-weight: 600;
 }
@@ -6421,6 +6439,8 @@
 .featured_section142 .addes em a:hover {
 	color: #ccc;
 }
+
+
 
 
 /* featured section 143 */
