@@ -353,7 +353,7 @@ p {
 
 /* Partner */
 .media-partner-logo li {
-	width: 20%;
+	margin-right: 4%;
 	display: inline-block;
 }
 .community-partner-logo li {
@@ -382,6 +382,9 @@ p {
 }
 .partner-techinasia {
 	width: 250px;
+}
+.partner-komunita {
+	width: 160px;
 }
 .partner-kongkowitmedan {
 	width: 150px;
