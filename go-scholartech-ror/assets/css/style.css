@@ -383,9 +383,6 @@ p {
 .partner-techinasia {
 	width: 250px;
 }
-.partner-komunita {
-	width: 160px;
-}
 .partner-kongkowitmedan {
 	width: 150px;
 }
@@ -400,6 +397,7 @@ p {
 }
 .partner-idruby {
 	width: 300px;
+	margin-top: 15%;
 }
 .partner-ieee {
 	width: 150px;
