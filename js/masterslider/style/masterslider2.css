@@ -2,6 +2,10 @@
  *  Master Slider
  * 	Core css file
  */
+.text3{
+	width: 40%;
+	text-align: justify;
+}
 
 .master-slider{
 	position: relative;
@@ -10,6 +14,7 @@
 }
 
 .master-slider a { 
+	font-weight: bolder;
 	-webkit-transition: none;
 	-o-transition: none;
 	transition: none;
@@ -315,7 +320,7 @@
 .ms-thumb-list.ms-dir-h {width: 100%;}
 .ms-thumb-list.ms-dir-v {height: 100%; top: 0;}
 .ms-thumbs-cont{position: relative;}
-.ms-thumb-frame img{width:100%;	height:auto;}
+.ms-thumb-frame img{ margin-top: 15px; width:50px;	height:auto;}
 .ms-thumb-frame{
 	cursor: pointer;
 	float: left;

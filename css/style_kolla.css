@@ -6376,6 +6376,7 @@
 	opacity: 0.7;
 	transition: all 0.3s ease;
 }
+
 .featured_section142 p{
 	height: 100px;
 }
@@ -6397,7 +6398,6 @@
 	margin-right: 10px;
 }
 
-
 .featured_section142 .addes hr{
 	margin: 30px 10px 10px 0px;
 }
@@ -6408,6 +6408,7 @@
 	display: block;
 	font-weight: 600;
 }
+
 .featured_section142 .addes em a {
 	float: right;
 	width: 75px;
@@ -6419,11 +6420,13 @@
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
+
 .featured_section142 .addes em a i {
 	float: left;
 	font-size: 21px;
 	margin-right: 7px;
 }
+
 .featured_section142 .addes em a:hover {
 	color: #ccc;
 }

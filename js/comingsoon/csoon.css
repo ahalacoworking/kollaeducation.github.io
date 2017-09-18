@@ -11,7 +11,7 @@
 }
 
 .topcontsoon h5 {
-	color: #f9e90b;
+	color: #e3e3e3;
 	margin: 35px 0px 0px 0px;
 	text-transform: uppercase;
 }
@@ -570,7 +570,7 @@
 	padding-top: 4px;
 }
 .flipTimer .digit-set {
-	width: 30px;
+	width: 28px;
 }
 .flipTimer .digit > div.shadow-top {
 	width: 20px;
