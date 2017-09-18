@@ -353,7 +353,7 @@ p {
 
 /* Partner */
 .media-partner-logo li {
-	width: 20%;
+	margin-right: 4%;
 	display: inline-block;
 }
 .community-partner-logo li {
