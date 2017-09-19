@@ -448,8 +448,9 @@ sub {
 
 /* Links */
 a {
-	color: #9eca45;
+	color: #3e9cd0;
 	text-decoration: none;
+	font-weight: bolder;
 }
 a:hover {
 	text-decoration: none;

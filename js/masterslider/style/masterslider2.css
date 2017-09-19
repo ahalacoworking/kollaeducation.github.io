@@ -355,7 +355,7 @@
 .ms-tabs.ms-dir-v.ms-align-left .ms-thumb-frame {margin-left: 0px;}
 .ms-tabs.ms-dir-h.ms-align-top {z-index: 140;} 
 .ms-tabs.ms-dir-h.ms-align-top  .ms-thumb-frame{margin-top: -12px;} 
-.ms-tabs .ms-thumb{padding: 0px 0px; text-align: center;}
+.ms-tabs .ms-thumb{padding: 20px 0px; text-align: center;}
 .ms-tabs .ms-thumb-frame-selected {	opacity: 1; background: #fff;}
 .ms-tabs .ms-thumb-frame .ms-thumb-ol {
     position: absolute;
