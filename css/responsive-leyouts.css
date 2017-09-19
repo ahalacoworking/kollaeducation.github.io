@@ -5,6 +5,10 @@
 	margin-top: 20px;
 }
 
+.img-eflyer{
+	width: 400px;
+}
+
 #iframe_main {
     height: 100%;
     width: 130%;
@@ -575,6 +579,20 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 999px){
+.featured_section142 .addes{
+	height: 450px !important;
+}
+
+.img-eflyer{
+	width: 300px;
+}
+
+.featured_section142 .addes p{
+	height: 250px !important;
+	font-size: 11pt;
+	text-align: left;
+}
+
 .contact-map{
 	width: 300px !important;
 	height: 480px !important;
@@ -615,12 +633,12 @@
 }
 
 .featured_section142 .addes{
-	height: 450px;
+	height: 550px;
 }
 
 
 .featured_section142 .addes p{
-	height: 180px;
+	height: 250px;
 	font-size: 11pt;
 	text-align: left;
 }
@@ -1571,6 +1589,18 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 639px){
+	.img-eflyer{
+		width: 300px;
+	}	
+	.featured_section142 .addes{
+		height: 450px !important;
+	}
+
+	.featured_section142 .addes p{
+		height: 250px !important;
+		font-size: 11pt;
+		text-align: left;
+	}
 	.img-gallery{
 		width: 330px;
 		height: 400px;
