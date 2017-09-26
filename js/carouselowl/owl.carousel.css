@@ -351,8 +351,6 @@
 	margin-bottom: 5px;
 }
 #owl-demo16 .item i {
-	color: #87d37c;
-	font-size: 11px;
 	margin: 0 1px;
 }
 #owl-demo16 .item p {
@@ -373,7 +371,7 @@
 	border-radius: 100%;
 }
 #owl-demo16 .item .who strong {
-	color: #87d37c;
+	color: #3e9cd0;
 	font-weight: 600;
 	line-height: 14px;
 }
