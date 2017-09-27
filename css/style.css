@@ -62,7 +62,24 @@
 	width: 640px;
 	height: 480px;
 }
+#piframe {
+    height: 100%;
+    width: 120%;
+	margin-top:-600px;
+	margin-left:-50px;
+}
 
+#pdiv {
+	width: 600px;
+	overflow:hidden;
+	height: 1500px;
+    position: relative;
+    margin-bottom: -550px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
 #iframe_main {
     height: 100%;
     width: 120%;
