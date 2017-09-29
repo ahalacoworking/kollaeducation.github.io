@@ -34,6 +34,7 @@ ul.nav>li>a:hover:after{
     display: block;
     padding: 10px 0px;
 	margin: 0px 27px;
+    font-size: 1.2em;
 }
 
 .navbar-collapse{
@@ -251,7 +252,6 @@ padding-left: 5px;}
 .navbar-nav>li>a {
     padding-top: 34px;
     padding-bottom: 32px;
-    font-size: 10pt !important;
 }
 
 
@@ -762,10 +762,9 @@ ul.nav>li>a:hover:after{
     }
 }
 
-
 .navbar-default .navbar-nav>li>a {
 color: #454545;
-font-size:16px;
+font-size:1.2em;
 font-weight: 500;
 text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
