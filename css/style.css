@@ -6403,7 +6403,7 @@
 }
 
 .featured_section142 h3 {
-	font-size: 18px !important;
+	font-size: 18px;
 	padding: 0px;
 	margin: 5px 0px;
 }
@@ -8483,8 +8483,20 @@ ul.footer_social_links5 {
 	text-transform: uppercase;
 	margin-bottom: 65px;
 }
+.title252 {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 .title25 .line {
 	margin: 14px auto 0 auto;
+	width: 90px;
+	height: 2px;
+	background: #50c9d4;
+}
+.title252 .line2 {
+	margin: 14px 0 0 0;
 	width: 90px;
 	height: 2px;
 	background: #50c9d4;
