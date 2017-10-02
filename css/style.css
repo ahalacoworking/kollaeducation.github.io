@@ -3977,9 +3977,9 @@
 }
 .featured_section67 .box i {
 	float: left;
-	font-size: 30px;
-	margin-right: 18px;
-	margin-top: 3px;
+	font-size: 22px;
+	margin-right: 8px;
+	margin-top: 8px;
 }
 .featured_section67 .box span {
 	float: right;
@@ -4732,7 +4732,7 @@
 	color: #f9e90b;
 	position: absolute;
 	left: 0;
-	bottom: -38px;
+	bottom: -50px;
 }
 .featured_section91 .one_fourth .persoci i {
 	float: left;
@@ -6417,7 +6417,7 @@
 }
 
 .featured_section142 p{
-	height: 250px;
+	height: 200px;
 }
 
 .featured_section142 .addes {
@@ -8302,7 +8302,6 @@ ul.footer_social_links5 {
 }
 .footer6 .column2 ul {
 	float: left;
-	width: 50%;
 	padding: 0;
 	margin: 0;
 }
