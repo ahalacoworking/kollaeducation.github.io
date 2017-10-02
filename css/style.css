@@ -3973,7 +3973,7 @@
 	color: #494949;
 	font-size: 14px;
 	line-height: 25px;
-	padding: 100px 300px 0 0;
+	padding: 80px 400px 0 0;
 }
 .featured_section67 .box i {
 	float: left;
@@ -3989,6 +3989,7 @@
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 10px;
+    padding: 8px 0px;
 }
 .featured_section67 .box a {
 	color: #000;
