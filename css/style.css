@@ -4275,14 +4275,21 @@
 	width: 100%;
 	padding: 115px 0px;
 	background: #f3f3f3;
-	text-align: center;
 }
 .featured_section78 .box {
 	float: left;
 	width: 100%;
-	height: 400px;
+	height: 220px;
 	background: #fff;
 	padding: 45px 40px 50px 40px;
+}
+.featured_section78 .box h5{
+	text-align: center;
+}
+
+.featured_section78 .box li{
+	text-align: left;
+	list-style-position: inside;
 }
 .featured_section78 .box img {
 	margin-bottom: 20px;
